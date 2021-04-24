@@ -1,8 +1,7 @@
-# Article name here
+# How to get Secrets Manager Values in AWS CDK
 
 A repository for an article on
-[bobbyhadz.com](https://bobbyhadz.com/blog/aws-s3-presigned-url-react)
-`<- Update Link`
+[bobbyhadz.com](https://bobbyhadz.com/blog/get-secrets-manager-values-aws-cdk)
 
 ## How to Use
 
