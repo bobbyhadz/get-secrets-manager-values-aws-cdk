@@ -3,6 +3,8 @@
 A repository for an article on
 [bobbyhadz.com](https://bobbyhadz.com/blog/get-secrets-manager-values-aws-cdk)
 
+> If you use CDK v1, switch to the cdk-v1 branch
+
 ## How to Use
 
 1. Clone the repository
@@ -20,7 +22,7 @@ aws secretsmanager create-secret --name databasePassword \
   --description "The password for a database" \
   --secret-string "dogsandcats123"
 
-npx cdk deploy
+npx aws-cdk deploy
 ```
 
 4. Open the AWS CloudFormation Console and the stack should be created in your
@@ -33,5 +35,5 @@ aws secretsmanager delete-secret \
   --secret-id databasePassword \
   --recovery-window-in-days 7
 
-npx cdk destroy
+npx aws-cdk destroy
 ```
