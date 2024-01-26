@@ -22,7 +22,7 @@ export class MyCdkStack extends cdk.Stack {
         SECRET_NAME: dbPasswordSecret.secretName,
         SECRET_VALUE: dbPasswordSecret.secretValue.toString(),
       },
-      runtime: lambda.Runtime.NODEJS_16_X,
+      runtime: lambda.Runtime.NODEJS_18_X,
       memorySize: 1024,
       timeout: cdk.Duration.seconds(5),
       handler: 'main',
